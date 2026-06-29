@@ -29,10 +29,15 @@ const Ionut = () => {
     <div className="flex flex-col items-center p-8 bg-light-bg rounded-lg">
       <File className="w-12 h-12 text-blue-500 mb-4" />
       <h4 className="text-xl font-semibold text-slate mb-4">Frente</h4>
-      <button className="flex items-center gap-2 px-6 py-3 bg-blue-500 text-white rounded-lg">
-        <Download className="w-5 h-5" />
-        Descargar .jpg
-      </button>
+      <a
+  href="https://drive.google.com/uc?export=download&id=1r1za5KObrCv-USec0T7hVPOwygW7Ch-P"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 px-6 py-3 bg-blue-500 text-white rounded-lg"
+>
+  <Download className="w-5 h-5" />
+  Descargar .jpg
+</a>
     </div>
 
     <div className="flex flex-col items-center p-8 bg-light-bg rounded-lg">
@@ -40,7 +45,7 @@ const Ionut = () => {
       <h4 className="text-xl font-semibold text-slate mb-4">Detrás</h4>
       <button className="flex items-center gap-2 px-6 py-3 bg-blue-500 text-white rounded-lg">
         <Download className="w-5 h-5" />
-        Descargar .pdf
+        Descargar .jpg
       </button>
     </div>
 

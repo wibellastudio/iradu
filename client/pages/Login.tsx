@@ -11,7 +11,7 @@ export default function Login() {
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (id === "admin" && password === "1234") {
+    if (id === "Admin" && password === "2024") {
       localStorage.setItem("logged", "true");
       navigate("/");
     } else {
