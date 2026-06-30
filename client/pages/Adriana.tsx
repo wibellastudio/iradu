@@ -124,10 +124,15 @@ const Adriana = () => {
             </h3>
 
             <div className="flex justify-center">
-              <button className="flex items-center gap-2 px-8 bg-blue-500 py-4  text-white rounded-lg font-semibold text-lg">
-                <Download className="w-6 h-6" />
-                Descargar .pdf
-              </button>
+               <a
+     href="https://drive.google.com/uc?export=download&id=12_EHfsAXl2EOJVno8ptJM2iigT1gD8hS"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center gap-2 px-8 py-4 bg-blue-500 text-white rounded-lg font-semibold text-lg"
+    >
+      <Download className="w-6 h-6" />
+      Descargar .pdf
+    </a>
             </div>
           </div>
 
@@ -138,10 +143,15 @@ const Adriana = () => {
             </h3>
 
             <div className="flex justify-center">
-              <button className="flex items-center gap-2 px-8 py-4 bg-purple-500 text-white rounded-lg font-semibold text-lg">
-                <Download className="w-6 h-6" />
-                Descargar .pdf
-              </button>
+               <a
+     href="https://drive.google.com/uc?export=download&id=1SRrxWAlna6OUU7WkByB4wwX6z99ZoCgc"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center gap-2 px-8 py-4 bg-purple-500 text-white rounded-lg font-semibold text-lg"
+    >
+      <Download className="w-6 h-6" />
+      Descargar .pdf
+    </a>
             </div>
           </div>
 
@@ -152,10 +162,15 @@ const Adriana = () => {
             </h3>
 
             <div className="flex justify-center">
-              <button className="flex items-center gap-2 px-8 py-4 bg-gray-500 text-white rounded-lg font-semibold text-lg">
-                <Download className="w-6 h-6" />
-                Descargar .pdf
-              </button>
+              <a
+     href="https://drive.google.com/uc?export=download&id=1cpsqj5BAFYl-F1iQVuJkEgEx0_8KrQYy"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center gap-2 px-8 py-4 bg-gray-500 text-white rounded-lg font-semibold text-lg"
+    >
+      <Download className="w-6 h-6" />
+      Descargar .pdf
+    </a>
             </div>
           </div>
 

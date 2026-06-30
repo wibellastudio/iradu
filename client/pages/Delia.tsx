@@ -27,27 +27,42 @@ const Delia = () => {
               <div className="flex flex-col items-center p-8 bg-light-bg rounded-lg">
                 <File className="w-12 h-12 text-blue-500 mb-4" />
                 <h4 className="text-xl font-semibold text-slate mb-4">Frente</h4>
-                <button className="flex items-center gap-2 px-6 py-3 bg-blue-500 text-white rounded-lg">
-                  <Download className="w-5 h-5" />
-                  Descargar .jpg
-                </button>
+                 <a
+  href="https://drive.google.com/uc?export=download&id=1sDRXNNFlnD2EpBYsT3bR-jLK5BeZvVuq"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 px-6 py-3 bg-blue-500 text-white rounded-lg"
+  >
+    <Download className="w-5 h-5" />
+    Descargar .jpg
+  </a>
               </div>
 
               <div className="flex flex-col items-center p-8 bg-light-bg rounded-lg">
                 <File className="w-12 h-12 text-blue-500 mb-4" />
                 <h4 className="text-xl font-semibold text-slate mb-4">Detras</h4>
-                <button className="flex items-center gap-2 px-6 py-3 bg-blue-500 text-white rounded-lg">
-                  <Download className="w-5 h-5" />
-                  Descargar .pdf
-                </button>
+                <a
+  href="https://drive.google.com/uc?export=download&id=1kpOhViUm1bJ6O2-XuGVEg8RuP4a7yN_E"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 px-6 py-3 bg-blue-500 text-white rounded-lg"
+  >
+    <Download className="w-5 h-5" />
+    Descargar .jpg
+  </a>
               </div>
             </div>
 
             <div className="flex justify-center">
-              <button className="flex items-center gap-2 px-8 py-4 bg-blue-500 text-white rounded-lg">
-                <Download className="w-6 h-6" />
-                Descargar NIE Frente y Detras en pdf
-              </button>
+              <a
+  href="https://drive.google.com/uc?export=download&id=1WRJRz4Hw0bZsoWjbh2WWP7NWz5GQAa_x"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 px-6 py-3 bg-blue-500 text-white rounded-lg"
+  >
+    <Download className="w-5 h-5" />
+    Descargar NIE frente y detras en PDF
+  </a>
             </div>
           </div>
 
@@ -93,10 +108,15 @@ const Delia = () => {
 
             <div className="flex flex-col items-center">
               <File className="w-12 h-12 text-red-500 mb-4" />
-              <button className="flex items-center gap-2 px-6 py-3 bg-red-500 text-white rounded-lg">
-                <Download className="w-5 h-5" />
-                Descargar .pdf
-              </button>
+               <a
+  href="https://drive.google.com/uc?export=download&id=1JBArianP3MARITWBDAhCC1GVyj1AIiFa"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center gap-2 px-6 py-3 bg-red-500 text-white rounded-lg"
+    >
+      <Download className="w-5 h-5" />
+      Descargar .pdf
+    </a>
             </div>
           </div>
 
@@ -112,20 +132,30 @@ const Delia = () => {
               <div className="flex flex-col items-center p-8 bg-light-bg rounded-lg">
                 <File className="w-12 h-12 text-green-600 mb-4" />
                 <h4 className="text-xl font-semibold text-slate mb-4">Literal</h4>
-                <button className="flex items-center gap-2 px-6 py-3 bg-green-600 text-white rounded-lg">
-                  <Download className="w-5 h-5" />
-                  Descargar .pdf
-                </button>
+                 <a
+  href="https://drive.google.com/uc?export=download&id=1nMb3QH50NSBsUykGT7L4A1B8dRZzv-Kg"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 px-6 py-3 bg-green-600 text-white rounded-lg"
+  >
+    <Download className="w-5 h-5" />
+    Descargar .pdf
+  </a>
               </div>
 
               {/* Plurilingüe */}
               <div className="flex flex-col items-center p-8 bg-light-bg rounded-lg">
                 <File className="w-12 h-12 text-green-600 mb-4" />
                 <h4 className="text-xl font-semibold text-slate mb-4">Plurilingüe</h4>
-                <button className="flex items-center gap-2 px-6 py-3 bg-green-600 text-white rounded-lg">
-                  <Download className="w-5 h-5" />
-                  Descargar .pdf
-                </button>
+                <a
+  href="https://drive.google.com/uc?export=download&id=1OZBlux23rRZq28ZasD4v5-5qp3nVMcfO"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center gap-2 px-6 py-3 bg-green-600 text-white rounded-lg"
+  >
+    <Download className="w-5 h-5" />
+    Descargar .pdf
+  </a>
               </div>
 
             </div>
