@@ -27,27 +27,42 @@ const Adriana = () => {
               <div className="flex flex-col items-center p-8 bg-light-bg rounded-lg">
                 <File className="w-12 h-12 text-secondary mb-4" />
                 <h4 className="text-xl font-semibold mb-4">Frente</h4>
-                <button className="flex items-center gap-2 px-6 py-3 bg-secondary text-white rounded-lg">
-                  <Download className="w-5 h-5" />
-                  Descargar .jpg
-                </button>
+               <a
+   href="https://drive.google.com/uc?export=download&id=1NBp0dFpHh6WeMPhaJhrcRFm0bEHF1ocN"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 px-6 py-3 bg-secondary text-white rounded-lg"
+>
+  <Download className="w-5 h-5" />
+  Descargar .jpg
+</a>
               </div>
 
               <div className="flex flex-col items-center p-8 bg-light-bg rounded-lg">
                 <File className="w-12 h-12 text-secondary mb-4" />
                 <h4 className="text-xl font-semibold mb-4">Detras</h4>
-                <button className="flex items-center gap-2 px-6 py-3 bg-secondary text-white rounded-lg">
-                  <Download className="w-5 h-5" />
-                  Descargar .pdf
-                </button>
+               <a
+   href="https://drive.google.com/uc?export=download&id=1S2iaYJQsS4-qgtBxmsHaQstF514BIj-7"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 px-6 py-3 bg-secondary text-white rounded-lg"
+>
+  <Download className="w-5 h-5" />
+  Descargar .jpg
+</a>
               </div>
             </div>
 
             <div className="flex justify-center">
-              <button className="flex items-center gap-2 px-8 py-4 bg-secondary text-white rounded-lg font-semibold text-lg">
-                <Download className="w-6 h-6" />
-                Descargar NIE completo en PDF
-              </button>
+               <a
+   href="https://drive.google.com/uc?export=download&id=11Ag1oT2-EAIxZgldaLAQB1lQ9XZpnbvd"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 px-6 py-3 bg-secondary text-white rounded-lg"
+>
+  <Download className="w-5 h-5" />
+  Descargar NIE completo en PDF
+</a>
             </div>
           </div>
 
@@ -62,28 +77,43 @@ const Adriana = () => {
     <div className="flex flex-col items-center p-8 bg-light-bg rounded-lg">
       <File className="w-12 h-12 text-red-500 mb-4" />
       <h4 className="text-xl font-semibold mb-4">Frente</h4>
-      <button className="flex items-center gap-2 px-6 py-3 bg-red-500 text-white rounded-lg">
-        <Download className="w-5 h-5" />
-        Descargar .jpg
-      </button>
+      <a
+     href="https://drive.google.com/uc?export=download&id=1LhMGRthWmawIbhXpTykVMWyIN3bwK1ir"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 px-6 py-3 bg-red-500 text-white rounded-lg"
+>
+  <Download className="w-5 h-5" />
+  Descargar .jpg
+</a>
     </div>
 
     <div className="flex flex-col items-center p-8 bg-light-bg rounded-lg">
       <File className="w-12 h-12 text-red-500 mb-4" />
       <h4 className="text-xl font-semibold mb-4">Detrás</h4>
-      <button className="flex items-center gap-2 px-6 py-3 bg-red-500 text-white rounded-lg">
-        <Download className="w-5 h-5" />
-        Descargar .pdf
-      </button>
+       <a
+     href="https://drive.google.com/uc?export=download&id=1xKtRJPIUZPgF74Sb5GgS1bwWww57vHuB"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 px-6 py-3 bg-red-500 text-white rounded-lg"
+>
+  <Download className="w-5 h-5" />
+  Descargar .jpg
+</a>
     </div>
 
   </div>
 
   <div className="flex justify-center mt-10">
-    <button className="flex items-center gap-2 px-8 py-4 bg-red-500 text-white rounded-lg font-semibold text-lg">
-      <Download className="w-6 h-6" />
-      Descargar DNI completo en PDF
-    </button>
+     <a
+     href="https://drive.google.com/uc?export=download&id=18HsCsuvlRM6ZSSn2z78sD4Cv6JEpF5UB"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 px-6 py-3 bg-red-500 text-white rounded-lg"
+>
+  <Download className="w-5 h-5" />
+  Descargar DNI completo en PDF
+</a>
   </div>
 </div>
 

@@ -112,7 +112,7 @@ Descargar NIE completo en PDF</a>
   className="flex items-center gap-2 px-6 py-3 bg-secondary text-white rounded-lg"
 >
   <Download className="w-5 h-5" />
-  Descargar .jpg
+  Descargar .pdf
 </a>
             </div>
           </div>
