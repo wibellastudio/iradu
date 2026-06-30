@@ -30,7 +30,7 @@ const Ionut = () => {
       <File className="w-12 h-12 text-blue-500 mb-4" />
       <h4 className="text-xl font-semibold text-slate mb-4">Frente</h4>
       <a
-  href="https://drive.google.com/uc?export=download&id=1r1za5KObrCv-USec0T7hVPOwygW7Ch-P"
+  href="https://drive.google.com/uc?export=download&id=14nRPgoUaaM8B4OSKRRMaKet4Cu-lqS9b"
   target="_blank"
   rel="noopener noreferrer"
   className="flex items-center gap-2 px-6 py-3 bg-blue-500 text-white rounded-lg"
@@ -43,19 +43,28 @@ const Ionut = () => {
     <div className="flex flex-col items-center p-8 bg-light-bg rounded-lg">
       <File className="w-12 h-12 text-blue-500 mb-4" />
       <h4 className="text-xl font-semibold text-slate mb-4">Detrás</h4>
-      <button className="flex items-center gap-2 px-6 py-3 bg-blue-500 text-white rounded-lg">
-        <Download className="w-5 h-5" />
-        Descargar .jpg
-      </button>
+      <a
+  href="https://drive.google.com/uc?export=download&id=1yMzbVSTdgjBamyJMBaVaQmkdiee1mu5H"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 px-6 py-3 bg-blue-500 text-white rounded-lg"
+>
+  <Download className="w-5 h-5" />
+  Descargar .jpg
+</a>
     </div>
 
   </div>
 
   <div className="flex justify-center">
-    <button className="flex items-center gap-2 px-8 py-4 bg-blue-500 text-white rounded-lg">
-      <Download className="w-6 h-6" />
-      Descargar NIE completo en PDF
-    </button>
+   <a
+  href="https://drive.google.com/uc?export=download&id=1r1za5KObrCv-USec0T7hVPOwygW7Ch-P"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 px-6 py-3 bg-blue-500 text-white rounded-lg"
+>
+  <Download className="w-5 h-5" />
+Descargar NIE completo en PDF</a>
   </div>
 </div>
 
@@ -69,27 +78,42 @@ const Ionut = () => {
               <div className="flex flex-col items-center p-8 bg-light-bg rounded-lg">
                 <File className="w-12 h-12 text-secondary mb-4" />
                 <h4 className="text-xl font-semibold text-slate mb-4">Frente</h4>
-                <button className="flex items-center gap-2 px-6 py-3 bg-secondary text-white rounded-lg">
-                  <Download className="w-5 h-5" />
-                  Descargar .jpg
-                </button>
+                <a
+  href="https://drive.google.com/uc?export=download&id=12pO_92AxAjhQNJ9tR2jQgrUYbtuXuWCR"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 px-6 py-3 bg-secondary text-white rounded-lg"
+>
+  <Download className="w-5 h-5" />
+  Descargar .jpg
+</a>
               </div>
 
               <div className="flex flex-col items-center p-8 bg-light-bg rounded-lg">
                 <File className="w-12 h-12 text-secondary mb-4" />
                 <h4 className="text-xl font-semibold text-slate mb-4">Detrás</h4>
-                <button className="flex items-center gap-2 px-6 py-3 bg-secondary text-white rounded-lg">
-                  <Download className="w-5 h-5" />
-                  Descargar .pdf
-                </button>
+                 <a
+  href="https://drive.google.com/uc?export=download&id=1W1_QIa1t6tIKxk2ljYPjX-h52tI64kNI"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 px-6 py-3 bg-secondary text-white rounded-lg"
+>
+  <Download className="w-5 h-5" />
+  Descargar .jpg
+</a>
               </div>
             </div>
 
             <div className="flex justify-center">
-              <button className="flex items-center gap-2 px-8 py-4 bg-secondary text-white rounded-lg">
-                <Download className="w-6 h-6" />
-                Descargar DNI completo en PDF
-              </button>
+               <a
+  href="https://drive.google.com/uc?export=download&id=1c1oUntnTa1HkXFiiKZtOMi8fJ_MtnkOP"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-2 px-6 py-3 bg-secondary text-white rounded-lg"
+>
+  <Download className="w-5 h-5" />
+  Descargar .jpg
+</a>
             </div>
           </div>
 
@@ -101,7 +125,7 @@ const Ionut = () => {
 
   <div className="flex justify-center">
     <a
-      href="/files/pasaporte.pdf"
+      href="https://drive.google.com/uc?export=download&id=1Y4tCWOIV9XtatVui5OZRjTniFKzO6HYn"
       download
       className="flex items-center gap-2 px-8 py-4 bg-red-500 text-white rounded-lg"
     >
@@ -119,8 +143,8 @@ const Ionut = () => {
 
   <div className="flex justify-center">
     <a
-      href="/files/certificado-nacimiento.pdf"
-      download
+      href="https://drive.google.com/uc?export=download&id=1JRn5FNJg50Zck0RlkQYlNEFZBRpy-SWh"
+      rel="noopener noreferrer"
       className="flex items-center gap-2 px-8 py-4 bg-gray-700 text-white rounded-lg"
     >
       <Download className="w-6 h-6" />
@@ -142,7 +166,7 @@ const Ionut = () => {
       <File className="w-12 h-12 text-purple-500 mb-4" />
       <h4 className="text-xl font-semibold text-slate mb-4">Literal</h4>
       <a
-        href="/files/matrimonio-literal.pdf"
+         href="https://drive.google.com/uc?export=download&id=10jcNy2LTyAgywL5tWl30dvk8HVY2vooR"
         download
         className="flex items-center gap-2 px-6 py-3 bg-purple-500 text-white rounded-lg"
       >
@@ -156,7 +180,7 @@ const Ionut = () => {
       <File className="w-12 h-12 text-purple-500 mb-4" />
       <h4 className="text-xl font-semibold text-slate mb-4">Plurilingüe</h4>
       <a
-        href="/files/matrimonio-plurilingue.pdf"
+        href="https://drive.google.com/uc?export=download&id=1zxdeMGlQUcbdrnlZxWJHm0p5rm7RgG_F"
         download
         className="flex items-center gap-2 px-6 py-3 bg-purple-500 text-white rounded-lg"
       >
